@@ -1,4 +1,4 @@
-rescue-the-princess
+Rescue the Princess
 ===================
 
 Cmpe434 - Final Project - Rescue the Princess
