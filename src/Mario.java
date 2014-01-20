@@ -32,7 +32,7 @@ public class Mario {
 		Behavior bDetectWallInDungeon = new BehaviorDetectWallInDungeon(ts, us);
 		
 		// climb down
-		Behavior bGoToMountainTop = new BehaviorGoToMountainTop();
+		Behavior bGoToMountainPeak = new BehaviorGoToMountainPeak();
 		Behavior bPreventFalling = new BehaviorPreventFalling(ts);
 		Behavior bClimbDown = new BehaviorClimbDown(us);
 		
@@ -54,7 +54,7 @@ public class Mario {
 				bRescuePrincess,
 				bDetectWallInDungeon,
 				
-				bGoToMountainTop,
+				bGoToMountainPeak,
 				bPreventFalling,
 				bClimbDown,
 				

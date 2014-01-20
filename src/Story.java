@@ -2,8 +2,8 @@
 public class Story {
 	
 	private static Story story = null;
-	private boolean bTruthUnfold = true;
-	private int iPrincessDoorNumber = 1;
+	private boolean bTruthUnfold = false;
+	private int iPrincessDoorNumber = 0;
 	private boolean bKingFound = false;
 	private boolean bAtTheSkirtsOfTheMountain = false;
 	private boolean bClimbing = false;

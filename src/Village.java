@@ -33,15 +33,6 @@ public class Village {
 		walls = new int[4][11];
 		visitDirections = new int[4][11];
 		
-		walls[3][5] = Direction.NORTH | Direction.WEST;
-		walls[3][6] = Direction.NORTH | Direction.WEST | Direction.SOUTH | Direction.EAST;
-		walls[3][7] = Direction.WEST | Direction.SOUTH;
-		
-		walls[3][8] = Direction.WEST | Direction.EAST;
-		walls[2][8] = Direction.NORTH | Direction.WEST | Direction.SOUTH | Direction.EAST;
-		walls[2][9] = Direction.SOUTH;
-		walls[1][8] = Direction.WEST;
-		
 		dungeonPath = new ArrayList<Coordinate>();
 		
 		prince = Prince.getPrince();
